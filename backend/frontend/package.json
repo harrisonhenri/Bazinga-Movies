@@ -1,0 +1,62 @@
+{
+  "name": "frontdev",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/react-transition-group": "^4.2.4",
+    "axios": "^0.19.2",
+    "cra-template": "1.0.2",
+    "gsap": "^3.2.6",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-icons": "^3.9.0",
+    "react-loading-skeleton-placeholders": "^1.2.1",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "react-star-rating-component": "^1.4.1",
+    "react-toastify": "^5.5.0",
+    "react-youtube": "^7.9.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.8.6",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-watch": "^6.0.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "svg-url-loader": "^5.0.0",
+    "webpack": "~4.41.5",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "scripts": {
+    "build": "webpack --env.ENVIRONMENT=production --mode production",
+    "dev": "webpack --env.ENVIRONMENT=development --mode development",
+    "start": "webpack-dev-server --env.ENVIRONMENT=development",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
