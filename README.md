@@ -22,23 +22,23 @@ It's free!
 
 - Login with Google account
 
-![](assets/login.png)
+![](assets/login.PNG)
 
 - Check the movies recommended for you
 
-![](assets/profile.png)
+![](assets/profile.PNG)
 
 The recommendation system is based on the Person Correlation Score (see more details in https://becominghuman.ai/introduction-to-recommendation-system-in-javascript-74209c7ff2f7):
 
-![](assets/person.png)
+![](assets/person.PNG)
 
 - Search new movies
 
-![](assets/search.png)
+![](assets/search.PNG)
 
 - See movies details and rating
 
-![](assets/details.png)
+![](assets/details.PNG)
 
 ## Install
 
